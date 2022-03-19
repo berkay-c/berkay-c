@@ -3,13 +3,13 @@
 
 <img align="right" src="https://github.com/berkay-c/berkay-c/blob/main/Image/Two.gif?raw=true"  width="260" />
 
-- 🔭 I’m currently working on **Data Visualization and Analysis**
+- 🔭 I’m currently working on **Image Processing**
 
 - 🌱 I’m currently learning **Machine Learning**
 
 - 👯 I’m looking to collaborate on **Data Science Project**
 
-- 🤝 I’m looking for help with **Machine Learning**
+- 🤝 I’m looking for help with **Machine Learning and Image Processing**
 
 - 📫 How to reach me **berkayyasinciftci@gmail.com**
 
