@@ -1,7 +1,7 @@
 <h1 align="center">Hi there , I'm Berkay 👋 </h1>
 <h3 align ="center"> A Data Science Enthusiast From Turkey </h3>
 
-<img align="right" src="https://github.com/berkay-c/berkay-c/blob/main/Image/Two.gif?raw=true"  width="260" />
+<img align="right" src="https://github.com/berkay-c/berkay-c/blob/main/Image/Two.gif?raw=true"  width="250" />
 
 - 🔭 I’m currently working on **Image Processing**
 
