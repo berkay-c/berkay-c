@@ -3,7 +3,7 @@
 
 <img align="right" src="https://github.com/berkay-c/berkay-c/blob/main/Image/Two.gif?raw=true"  width="190" />
 
-- 🔭 I’m currently working on **Image Processing**
+- 🔭 I’m currently working on **RPA Projects**
 
 - 🌱 I’m currently learning **Machine Learning**
 
