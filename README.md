@@ -1,5 +1,5 @@
 <h1 align="center">Hi there , I'm Berkay 👋 </h1>
-<h3 align ="center"> A Data Science and RPA Enthusiast From Turkey </h3>
+<h3 align ="center"> Software & RPA Developer From Turkey </h3>
 
 <img align="right" src="https://github.com/berkay-c/berkay-c/blob/main/Image/Two.gif?raw=true"  width="190" />
 
