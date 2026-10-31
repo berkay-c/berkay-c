@@ -15,10 +15,11 @@ from fontTools.ttLib import TTFont
 # README hero is centred; the LinkedIn banner keeps clear of the profile photo (bottom-left), so its text sits right of centre.
 LAYOUTS = {
     "hero": {"w": 1200, "h": 500, "rx": 12, "cx": 600, "quote": 50, "mark": 45, "b1": 160, "b2": 219,
-             "rule_y": 326.5, "rule_in": 150, "rule_out": 270, "name": 19, "name_b": 333, "role": 13, "role_b": 378},
-    "banner": {"w": 1584, "h": 396, "rx": 0, "cx": 1040, "quote": 44, "mark": 40, "b1": 148, "b2": 200,
-               "rule_y": 253.5, "rule_in": 140, "rule_out": 250, "name": 17, "name_b": 260, "role": 12, "role_b": 298},
+             "rule_y": 326.5, "rule_in": 200, "rule_out": 320, "name": 19, "name_b": 333, "role": 13, "role_b": 378},
+    "banner": {"w": 1584, "h": 396, "rx": 0, "cx": 1040, "quote": 44, "mark": 40, "b1": 144, "b2": 196,
+               "rule_y": 252.5, "rule_in": 205, "rule_out": 300, "name": 20, "name_b": 260, "role": 14, "role_b": 300},
 }
+NAME = "BERKAY YASIN CIFTCI"
 THEMES = {
     "light": {"bg": "#f3f2ee", "ink": "#151514", "soft": "#6e6d68", "hair": "#d3d2cb"},
     "dark": {"bg": "#0f1012", "ink": "#ecebe6", "soft": "#8a8984", "hair": "#2c2d31"},
@@ -78,10 +79,10 @@ def build(fonts, theme, layout="hero"):
     # name between two short rules
     y, a, b = L["rule_y"], L["rule_in"], L["rule_out"]
     parts.append(f'<path stroke="{c["hair"]}" stroke-width="1" d="M{cx - b} {y}H{cx - a}M{cx + a} {y}H{cx + b}"/>')
-    line([(sans, "BERKAY ÇİFTÇİ", L["name"], L["name"] * 0.28, c["ink"])], L["name_b"])
+    line([(sans, NAME, L["name"], L["name"] * 0.28, c["ink"])], L["name_b"])
     line([(mono, "SOFTWARE ENGINEER", L["role"], L["role"] * 0.22, c["soft"])], L["role_b"])
 
-    label = "“Building things people use. Learning how to sell them.” — Berkay Çiftçi, Software Engineer"
+    label = "“Building things people use. Learning how to sell them.” — Berkay Yasin Ciftci, Software Engineer"
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{label}">'
             f"<title>{label}</title>"
             f'<rect width="{W}" height="{H}" rx="{L["rx"]}" fill="{c["bg"]}"/>'
